@@ -24,7 +24,7 @@ Aspiring engineering student with a strong foundation in design and simulation. 
 
 - **High Tech High School**  
   *High School Diploma*  
-  Graduation: [June, 2024]
+  Graduation: June, 2024
 
 ---
 
