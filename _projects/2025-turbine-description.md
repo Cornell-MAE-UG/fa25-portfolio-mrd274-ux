@@ -9,29 +9,32 @@ images:
    - assets/images/equation.png
 ---
 
-A steam turbine is a device that converts the thermal energy of high-pressure, high-temperature steam into mechanical shaft work. It is a core component of the Rankine cycle, which is widely used in power plants (coal, natural gas, nuclear), industrial cogeneration systems, geothermal plants, etc.
+A steam turbine converts the thermal energy of high-pressure, high-temperature steam into mechanical shaft work. It is a core component of the Rankine cycle and is widely used in power plants (coal, natural gas, nuclear), industrial cogeneration systems, and geothermal plants.
 
+## How it works (conceptual overview)
 
-How It Works (Conceptual Overview):
+1. High-pressure steam enters the turbine through a nozzle. The nozzle converts thermal energy into kinetic energy.
+2. The high-velocity steam impacts a series of rotating blades, producing impulse and/or reaction forces that turn the rotor.
+3. Steam expands through multiple stages; its pressure, temperature, and enthalpy decrease while the rotor gains mechanical energy.
+4. The rotating shaft drives a generator to produce electricity.
+5. Low-pressure steam exits to a condenser, where it is condensed back to liquid and returned to the cycle.
 
- -> High-pressure steam enters the turbine through a nozzle.
-    – The nozzle converts thermal energy → kinetic energy.
+## Design change considered
 
- -> The high-velocity steam impacts a series of rotating blades imparting impulse and reaction forces.
+One common performance change is increasing the turbine inlet temperature while keeping the inlet pressure constant. This simple modification has several effects on performance and component life.
 
- -> As steam expands through multiple stages, its pressure, temperature, and enthalpy drop while the rotor gains mechanical energy.
+## Effect on performance
 
- -> The shaft of the turbine drives a generator, producing electricity.
+- Increased inlet enthalpy (h1) raises the enthalpy drop across the turbine, which typically increases the work output.
+- Raising inlet temperature tends to reduce the moisture fraction at the turbine exit, lowering the risk of blade erosion and improving durability.
+- Overall thermodynamic efficiency generally improves because the expansion more closely approaches an ideal isentropic process.
+- Trade-offs: higher temperatures increase material stresses (creep and fatigue), require better cooling and higher-cost materials, and may reduce component life if not mitigated.
 
- -> Low-pressure steam exits to a condenser, where it becomes saturated liquid to complete the cycle.
+## Conclusion
 
-One change that can be made to the device is increasing the turbine inlet temperature while keeping pressure constant. 
+Increasing the turbine inlet temperature is an effective way to increase power output and efficiency, but it must be balanced against material limits and long-term durability concerns.
 
-Effect on Performance: 
- -> Higher h1 -> increased enthalpy drop -> higher work output
- -> Lower moisture content at exit, reducing blade erosion
- -> Efficiency inreases because the process more closely approaches an ideal isentropic expansion
- -> Trade off: Material limitations (creep, blade fatigue)
+---
 
-Conclusion: Increasing inlet temperature improves turbine output and effiency until material limits are reached.
+If you'd like, I can also add short captions under each image or adjust image sizes/styles in the CSS so the page looks even cleaner on mobile and desktop.
 
