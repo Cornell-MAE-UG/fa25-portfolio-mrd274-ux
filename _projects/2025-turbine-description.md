@@ -3,7 +3,10 @@ layout: project
 title: Steam Turbine System
 description: Analysis Project
 technologies: N/A
-image: assets/images/profile-pic.jpg
+images:
+   - assets/images/construction-of-steam-turbine.jpg
+   - assets/images/cv.png
+   - assets/images/equation.png
 ---
 
 A steam turbine is a device that converts the thermal energy of high-pressure, high-temperature steam into mechanical shaft work. It is a core component of the Rankine cycle, which is widely used in power plants (coal, natural gas, nuclear), industrial cogeneration systems, geothermal plants, etc.
