@@ -3,6 +3,7 @@ layout: project
 title: Steam Turbine System
 description: Analysis Project
 technologies: N/A
+image: assets/images/construction-of-steam-turbine.jpg
 images:
    - assets/images/construction-of-steam-turbine.jpg
    - assets/images/cv.png
@@ -34,7 +35,5 @@ One common performance change is increasing the turbine inlet temperature while 
 
 Increasing the turbine inlet temperature is an effective way to increase power output and efficiency, but it must be balanced against material limits and long-term durability concerns.
 
----
 
-If you'd like, I can also add short captions under each image or adjust image sizes/styles in the CSS so the page looks even cleaner on mobile and desktop.
 
