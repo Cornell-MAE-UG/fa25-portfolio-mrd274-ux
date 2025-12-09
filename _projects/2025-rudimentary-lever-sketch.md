@@ -35,18 +35,20 @@ This geometry was selected to maximize the vertical motion of the load while pre
 
 ### Static Equilibrium Analysis
 
-Taking moments about the rear ground pin:
+Taking moments about the rear ground pin, we apply the principle that the sum of moments equals zero. This means the moment (torque) produced by the actuator force must equal the moment produced by the load weight.
 
-$$\sum M = 0 \Rightarrow F_{\text{act}} \cdot r_{\text{act}} = W \cdot r_{\text{load}}$$
-
-**Given:**
-- $r_{\text{act}} = 0.35 \text{ m}$
-- $r_{\text{load}} = 1.20 \text{ m}$
-- $F_{\text{act}} = 3000 \text{ N}$
+**Given values:**
+- Actuator moment arm: 0.35 m
+- Load moment arm: 1.20 m
+- Actuator force available: 3,000 N
 
 **Calculation:**
 
-$$W = \frac{F_{\text{act}} \times r_{\text{act}}}{r_{\text{load}}} = \frac{3000 \times 0.35}{1.20} = 875 \text{ N}$$
+The maximum weight that can be lifted is calculated by balancing the moments:
+
+Maximum weight = (Actuator force × Actuator moment arm) ÷ Load moment arm
+
+Maximum weight = (3,000 N × 0.35 m) ÷ 1.20 m = 1,050 ÷ 1.20 = **875 N**
 
 ✅ **Maximum Lifted Weight:** 875 N (≈ 89 kg load)  
 ✅ **Vertical Lift Height Achieved:** 48 cm
@@ -80,9 +82,9 @@ Now the bar is modeled as a flexible beam subjected to:
 
 ### Deflection Limit
 
-The maximum allowable deflection is set to 2% of beam length:
+The maximum allowable deflection is set to 2% of the beam length (a standard engineering practice for deflection control):
 
-$$\delta_{\text{max}} \leq 0.02L = 0.02(1.2) = 0.024 \text{ m} = 24 \text{ mm}$$
+Maximum allowed deflection = 0.02 × 1.2 m = 0.024 m = 24 mm
 
 ### Selected Beam Design (Optimized for Mass Efficiency)
 
@@ -100,11 +102,13 @@ $$\delta_{\text{max}} \leq 0.02L = 0.02(1.2) = 0.024 \text{ m} = 24 \text{ mm}$$
 
 Using the Euler–Bernoulli beam formula for a pinned-pinned beam with central load:
 
-$$\delta_{\text{max}} = \frac{FL^3}{3EI}$$
+Deflection = (Load × Beam Length³) ÷ (3 × Young's Modulus × Moment of Inertia)
 
-Substituting values:
+Substituting the aluminum beam values:
 
-$$\delta_{\text{max}} = \frac{875 \times (1.2)^3}{3 \times (69 \times 10^9) \times (1.05 \times 10^{-8})} = 9.7 \text{ mm}$$
+Deflection = (875 N × (1.2 m)³) ÷ (3 × 69 GPa × 1.05 × 10⁻⁸ m⁴)
+
+Deflection = 1,512 ÷ 155.7 = **9.7 mm**
 
 ✅ **Deflection = 9.7 mm < 24 mm limit**  
 ✅ **Beam is structurally compliant and mass-efficient**
