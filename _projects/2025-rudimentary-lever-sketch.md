@@ -3,10 +3,11 @@ layout: project
 title: High-Efficiency Lever Lifting Mechanism
 description: Design Project
 technologies: N/A
-image: assets/images/rudimentary-lever-sketch.png
+image: assets/images/images.jpg
+images:
+  - assets/images/images.jpg
 ---
 
-**Statics + Beam Deflection Optimization | ENGRD 2020**
 
 ## Objective
 
