@@ -95,7 +95,7 @@ Maximum allowed deflection = 0.02 × 1.2 m = 0.024 m = 24 mm
 | Cross-Section | Rectangular tube |
 | Outer Dimensions | 40 mm × 20 mm |
 | Wall Thickness | 2 mm |
-| Area Moment of Inertia | $1.05 \times 10^{-8}$ m⁴ |
+| Area Moment of Inertia | 0.0000000105 m⁴ (10.5 × 10⁻⁹ m⁴) |
 | Beam Mass | 1.48 kg |
 
 ### Maximum Deflection Calculation
