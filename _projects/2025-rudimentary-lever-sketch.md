@@ -46,7 +46,7 @@ $$\sum M = 0 \Rightarrow F_{\text{act}} \cdot r_{\text{act}} = W \cdot r_{\text{
 
 **Calculation:**
 
-$$W = \frac{3000 \times 0.35}{1.20} = 875 \text{ N}$$
+$$W = \frac{F_{\text{act}} \times r_{\text{act}}}{r_{\text{load}}} = \frac{3000 \times 0.35}{1.20} = 875 \text{ N}$$
 
 ✅ **Maximum Lifted Weight:** 875 N (≈ 89 kg load)  
 ✅ **Vertical Lift Height Achieved:** 48 cm
@@ -80,7 +80,9 @@ Now the bar is modeled as a flexible beam subjected to:
 
 ### Deflection Limit
 
-$$\delta_{\max} \leq 0.02L = 0.02(1.2) = 0.024 \text{ m} = 24 \text{ mm}$$
+The maximum allowable deflection is set to 2% of beam length:
+
+$$\delta_{\text{max}} \leq 0.02L = 0.02(1.2) = 0.024 \text{ m} = 24 \text{ mm}$$
 
 ### Selected Beam Design (Optimized for Mass Efficiency)
 
@@ -96,9 +98,13 @@ $$\delta_{\max} \leq 0.02L = 0.02(1.2) = 0.024 \text{ m} = 24 \text{ mm}$$
 
 ### Maximum Deflection Calculation
 
-$$\delta_{\max} = \frac{FL^3}{3EI}$$
+Using the Euler–Bernoulli beam formula for a pinned-pinned beam with central load:
 
-$$\delta_{\max} = \frac{875 \times (1.2)^3}{3 \times (69 \times 10^9) \times (1.05 \times 10^{-8})} = 9.7 \text{ mm}$$
+$$\delta_{\text{max}} = \frac{FL^3}{3EI}$$
+
+Substituting values:
+
+$$\delta_{\text{max}} = \frac{875 \times (1.2)^3}{3 \times (69 \times 10^9) \times (1.05 \times 10^{-8})} = 9.7 \text{ mm}$$
 
 ✅ **Deflection = 9.7 mm < 24 mm limit**  
 ✅ **Beam is structurally compliant and mass-efficient**
