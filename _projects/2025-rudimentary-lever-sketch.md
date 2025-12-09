@@ -5,7 +5,8 @@ description: Design Project
 technologies: N/A
 image: assets/images/images.jpg
 images:
-  - assets/images/images.jpg
+- assets/images/images.jpg
+- assets/images/image2.jpg
 ---
 
 
