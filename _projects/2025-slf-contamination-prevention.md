@@ -3,9 +3,9 @@ layout: project
 title: Preventing SLF Contamination in Grape Harvests
 description: Design Project
 technologies: Mechanical Design, Density Separation, Fluid Mechanics
-image: assets/images/images.jpg
+image: assets/images/grape-harvest.jpg
 images:
-- assets/images/images.jpg
+- assets/images/grape-harvest.jpg
 ---
 
 ## Overview
