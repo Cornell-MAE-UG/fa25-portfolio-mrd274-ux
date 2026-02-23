@@ -5,7 +5,9 @@ description: Design Project
 technologies: Mechanical Design, Density Separation, Fluid Mechanics
 image: assets/images/grape-harvest.jpg
 images:
-- assets/images/grape-harvest.jpg
+- assets/images/0004950_catawba-grape-vine.jpeg
+images:
+- assets/images/0004950_catawba-grape-vine.jpeg
 ---
 
 ## Overview
